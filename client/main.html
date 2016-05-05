@@ -1,0 +1,20 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+<div class="container">
+<header>
+  <h1>ToTo Dog</h1>
+</header>
+<ul>
+{{#each tacks}}
+ {{>tax}}
+{{/each}}
+</ul>
+</div>
+</body>
+
+<template name="tax">
+  <li>{{text}}</li>
+</template>
